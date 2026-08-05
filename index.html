@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JEE Main Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>JEE Main Registration Form</h2>
+
+<form>
+
+<!-- Personal Details Table -->
+
+<h3>Personal Details</h3>
+
+<table>
+
+<tr>
+    <td><label>Candidate Name</label></td>
+    <td><input type="text" placeholder="Enter Name"></td>
+</tr>
+
+<tr>
+    <td><label>Date of Birth</label></td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td><label>Gender</label></td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+
+<tr>
+    <td><label>Email</label></td>
+    <td><input type="email" placeholder="Enter Email"></td>
+</tr>
+
+<tr>
+    <td><label>Mobile Number</label></td>
+    <td><input type="tel" placeholder="Enter Mobile Number"></td>
+</tr>
+
+<tr>
+    <td><label>Category</label></td>
+    <td>
+        <select>
+            <option>Select Category</option>
+            <option>General</option>
+            <option>OBC</option>
+            <option>SC</option>
+            <option>ST</option>
+            <option>EWS</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><label>Address</label></td>
+    <td>
+        <textarea rows="3"></textarea>
+    </td>
+</tr>
+
+</table>
+
+
+<!-- Educational Details Table -->
+
+<h3>Educational Details</h3>
+
+<table border="1">
+
+<tr>
+    <th>Qualification</th>
+    <th>Board Name</th>
+    <th>Passing Year</th>
+    <th>Percentage</th>
+</tr>
+
+<tr>
+    <td>10th Class</td>
+    <td><input type="text"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+</tr>
+
+<tr>
+    <td>12th Class</td>
+    <td><input type="text"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+</tr>
+
+</table>
+
+
+<h3>JEE Exam Details</h3>
+
+<table>
+
+<tr>
+<td>Exam Paper</td>
+<td>
+<select>
+<option>B.E/B.Tech</option>
+<option>B.Arch</option>
+<option>B.Planning</option>
+</select>
+</td>
+</tr>
+
+
+<tr>
+<td>Exam City</td>
+<td>
+<input type="text">
+</td>
+</tr>
+
+</table>
+
+
+<br>
+
+<button type="submit">Register</button>
+<button type="reset">Reset</button>
+
+
+</form>
+
+</div>
+
+</body>
+</html>

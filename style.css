@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.gender {
+    margin-top: 8px;
+}
+
+
+/* Educational Details Box */
+.education-box {
+    border: 2px solid #333;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.education-box h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+td input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

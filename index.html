@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Online Exam Registration Form</h1>
+
+    <form onsubmit="return validateForm()">
+
+        <label>First Name</label>
+        <input type="text" id="firstName" placeholder="Enter first name" required>
+
+        <label>Last Name</label>
+        <input type="text" id="lastName" placeholder="Enter last name" required>
+
+        <label>Father's Name</label>
+        <input type="text" id="fatherName" placeholder="Enter father's name" required>
+
+        <label>Mother's Name</label>
+        <input type="text" id="motherName" placeholder="Enter mother's name" required>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob" required>
+
+        <label>Gender</label>
+
+        <div class="gender">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </div>
+
+
+        <!-- Educational Details -->
+        <div class="education-box">
+
+            <h2>Educational Details</h2>
+
+            <table>
+
+                <tr>
+                    <th>Qualification</th>
+                    <th>Board / University</th>
+                    <th>Percentage</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Enter qualification">
+                    </td>
+
+                    <td>
+                        <input type="text" placeholder="Enter board / university">
+                    </td>
+
+                    <td>
+                        <input type="number" placeholder="Enter percentage">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Enter qualification">
+                    </td>
+
+                    <td>
+                        <input type="text" placeholder="Enter board / university">
+                    </td>
+
+                    <td>
+                        <input type="number" placeholder="Enter percentage">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Enter qualification">
+                    </td>
+
+                    <td>
+                        <input type="text" placeholder="Enter board / university">
+                    </td>
+
+                    <td>
+                        <input type="number" placeholder="Enter percentage">
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <label>Upload Passport Size Photo</label>
+        <input type="file" accept="image/*">
+
+
+        <label>Upload E-Signature</label>
+        <input type="file" accept="image/*">
+
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
